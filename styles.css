@@ -1,12 +1,15 @@
 /*  your css code here. If applicable */
 body{
-	display:flex;
-	height:100vh;
-	justify-content:center;
-	align-items:center;
+	min-height:100vh;
+	margin:0;
+	position:relative;
 }
 #div1{
+	position:absolute;
 	display:flex;
 	justify-content:center;
-	align-items:center
+	align-items:center;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
 }
